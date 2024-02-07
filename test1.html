@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="test1.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3glpd7knf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFKKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
     <div class="form">
@@ -26,20 +27,21 @@
                          <p>Phone number</p>
                          <input class="a" type="text">
                     </div>
-
-                    <div>
+                    <div class="password-container">
                          <p>Password</p>
-                         <input class="a" type="password" id="password">
+                            <input class="a" type="password" id="password-input">
+                            <i class="fa fa-eye-slash" onclick="togglepassword()"></i>
                     </div>
 
-                    <div>
+                    <div class="password-container">
                          <p>Confirm password</p>
-                         <input class="a" type="password" id="password">
+                           <input class="a" type="password" id="password-input">
+                           <i class="fa fa-eye-slash" onclick="togglepassword()"></i>
                     </div><br>
 
                     <div class="button">
                          <button class="my-button">Register</button>
-                         <i class="fa-regular fa-eye-slash"></i>
+                       
                     </div><br>
 
                     <div class="button2">
