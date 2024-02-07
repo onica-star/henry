@@ -1,0 +1,54 @@
+body{
+    background: url(images/Homepage.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-color: transparent;  
+}
+
+.form{
+    width: 589px;
+    height: 883px;
+    margin-top: 70px;
+    margin-left: 23px;
+    padding: 94px, 122px, 95px, 121px;
+    border-radius: 8px;
+    background:  #FFFFFF61;   
+
+}
+.container{
+    width: 346px;
+    height: 694px;
+    padding-top: 94px;
+    padding-left: 121px;
+}
+
+.my-button{
+    border-radius: 5px;
+    width: 345px;
+    height: 48px;
+}
+.my-button2{
+    border-radius: 5px;
+    width: 345px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-color: lime;
+}
+.a{
+    width: 345px;
+    height: 48px;
+    border: none;
+    border: 1px;
+    border-radius: 8px;
+    border: 1px solid #E0DEDE
+}
+.login{
+    height: 24px;
+    width: 261px;
+}
+
+    
+
